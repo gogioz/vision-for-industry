@@ -14,23 +14,18 @@ const Footer = ({ lang }) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_l9q2dtc", // from EmailJS
-        "template_k27pbnf", // from EmailJS
-        form.current,
-        "uE105nhzu8mwmZfTE" // from EmailJS
-      )
-      .then(
-        () => {
-          console.log("تم الإرسال بنجاح!");
-          form.current.reset();
-        },
-        () => {
-          console.log("حدث خطأ! حاول مرة أخرى.");
-        }
-      );
-  };
+  emailjs
+  .sendForm("service_l9q2dtc", "template_k27pbnf", form.current, "uE105nhzu8mwmZfTE")
+  .then(
+    () => {
+      alert(lang === "en" ? "Sent successfully!" : "تم الإرسال بنجاح!");
+      form.current.reset();
+    },
+    (error) => {
+      console.error("Error:", error);
+      alert(lang === "en" ? "Something went wrong!" : "حدث خطأ! حاول مرة أخرى.");
+    }
+  );
 
   return (
     <footer
