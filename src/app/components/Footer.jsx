@@ -26,6 +26,7 @@ const Footer = ({ lang }) => {
       alert(lang === "en" ? "Something went wrong!" : "حدث خطأ! حاول مرة أخرى.");
     }
   );
+  }
 
   return (
     <footer
