@@ -70,9 +70,8 @@ const Footer = ({ lang }) => {
                 href: "https://www.facebook.com/uniform.Egypt2020?locale=ar_AR",
                 Icon: FaFacebookF,
               },
-              { href: "#", Icon: FaInstagram },
-              { href: "#", Icon: FaWhatsapp },
-              { href: "#", Icon: FaTelegramPlane },
+              { href: "https://www.instagram.com/visionforinsdustry?igsh=MW5zcGJnYzF1dHZkZQ%3D%3D&utm_source=qr ", Icon: FaInstagram },
+              { href: "https://wa.me/201102551776", Icon: FaWhatsapp },
             ].map(({ href, Icon }, i) => (
               <a
                 key={i}
