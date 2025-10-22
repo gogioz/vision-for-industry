@@ -33,12 +33,7 @@ export default function About({ lang }) {
                 Our expertise also extends to supplying office equipment, making
                 us a trusted partner for providing all workplace essentials
                 under one roof — combining quality with commitment.
-                <br /> <br /> VISION Industries takes pride in its strong track
-                record of collaboration with companies both in Egypt and abroad,
-                including Saudi Arabia, the United Arab Emirates, Jordan,
-                Kuwait, and Sudan. This reflects the trust we’ve earned through
-                our continuous dedication to quality, precision, and customer
-                satisfaction in every detail.
+                <br /> <br /> VISION Industries boasts a proven track record of collaboration with companies inside Egypt and abroad in the Gulf countries, Britain, and Austria. This reflects the trust we have earned thanks to our constant commitment to quality, precision in execution, and attention to detail to ensure our customers' satisfaction.
               </p>
             ) : (
               <p
