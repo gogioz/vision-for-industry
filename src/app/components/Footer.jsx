@@ -16,10 +16,10 @@ const Footer = ({ lang }) => {
 
     emailjs
       .sendForm(
-        // "service_6zp3u3s",
-        // "template_o5lo6dq",
-        form.current
-        // "uE105nhzu8mwmZfTE"
+        "service_l9q2dtc", // from EmailJS
+        "template_k27pbnf", // from EmailJS
+        form.current,
+        "uE105nhzu8mwmZfTE" // from EmailJS
       )
       .then(
         () => {
@@ -98,8 +98,8 @@ const Footer = ({ lang }) => {
               {lang === "en" ? "Contact Us" : "تواصل معنا"}
             </h3>
             <form
-              ref={form}
-              onSubmit={sendEmail}
+      ref={form}
+          onSubmit={sendEmail}
               className="flex flex-col gap-4 w-full"
             >
               <input
