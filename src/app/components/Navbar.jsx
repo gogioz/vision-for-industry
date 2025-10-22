@@ -52,7 +52,7 @@ export default function Navbar({ lang, setLang }) {
           href="#hero"
           className="font-bold flex flex-col justify-center items-center text-[#0f204e]"
         >
-          <h1 className=" text-4xl md:text-9xl md:text-red-200">
+          <h1 className=" text-4xl ">
             {lang === "en" ? "VISION" : "فيچين"}
           </h1>
           <span className="text-xl">
